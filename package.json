@@ -1,18 +1,31 @@
 {
-  "name": "jsoncaster",
+  "name": "json-caster",
   "version": "1.0.0",
-  "description": "",
+  "description": "A tiny library for runtime serialization of JSON into Typescript classes/interfaces",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "MIT",
+  "dependencies": {},
   "devDependencies": {
+    "colors": "^1.1.2",
     "@types/colors": "^1.1.3",
-    "@types/node": "^7.0.29"
+    "@types/node": "^7.0.29",
+    "typescript": "^2.3.4"
   },
-  "dependencies": {
-    "colors": "^1.1.2"
-  }
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saltyJeff/JSONCaster.git"
+  },
+  "keywords": [
+    "JSON",
+    "casting",
+    "typescript"
+  ],
+  "author": "Jefferson Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saltyJeff/JSONCaster/issues"
+  },
+  "homepage": "https://github.com/saltyJeff/JSONCaster#readme"
 }
